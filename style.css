@@ -89,26 +89,35 @@ body {
 
 .flowers {
   position: absolute;
-  height: 444px;
+  height: 320px;
+  width: 320px;
   left: 880px;
-  right: 480px;
+  right: 200px;
   top: 900px;
+  object-fit: cover;
+  border-radius: 8px;
 }
 
 .light-flowers {
   position: absolute;
-  height: 444px;
-  left: 580px;
+  height: 320px;
+  width: 320px;
+  left: 540px;
   right: 568px;
   top: 900px;
+  object-fit: cover;
+  border-radius: 8px;
 }
 
 .lila-flowers {
   position: absolute;
-  height: 444px;
+  height: 320px;
+  width: 320px;
   left: 200px;
   right: 568px;
   top: 900px;
+  object-fit: cover;
+  border-radius: 8px;
 }
 
 /* Background Toggles */
@@ -146,3 +155,4 @@ body {
   background: -webkit-linear-gradient(to top, #4B1248, #F0C27B);  
   background: linear-gradient(to top, #4B1248, #F0C27B);
 }
+
